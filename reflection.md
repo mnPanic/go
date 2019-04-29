@@ -4,6 +4,7 @@
 
 - [Reflect package](https://golang.org/pkg/reflect/)
 - [Laws of Reflection](https://blog.golang.org/laws-of-reflection)
+- [Setting fields of a struct](https://stackoverflow.com/questions/6395076/using-reflect-how-do-you-set-the-value-of-a-struct-field?rq=1)
 
 ## Reflection example
 
