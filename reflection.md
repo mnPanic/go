@@ -1,12 +1,10 @@
 # Reflection
 
-## Useful links
-
-- [Reflect package](https://golang.org/pkg/reflect/)
-- [Laws of Reflection](https://blog.golang.org/laws-of-reflection)
+- [`reflect` pkg](https://golang.org/pkg/reflect/)
+- [_Laws of Reflection_ article](https://blog.golang.org/laws-of-reflection)
 - [Setting fields of a struct](https://stackoverflow.com/questions/6395076/using-reflect-how-do-you-set-the-value-of-a-struct-field?rq=1)
 
-## Reflection example
+## Example
 
 ```go
 package main
@@ -46,4 +44,3 @@ func main() {
 ```
 
 [Source](https://gist.github.com/drewolson/4771479)
-
