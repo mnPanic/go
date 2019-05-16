@@ -11,6 +11,14 @@ Cosas afines a GO
 
 ## Configuration
 
+### Add executables to `PATH`
+
+To do so, add the directory `$GOPATH/bin` to path PATH
+
+```bash
+export PATH=$PATH:$(go env GOPATH)/bin
+```
+
 ### [Dep](dep.md)
 
 ## Links
