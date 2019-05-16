@@ -7,4 +7,8 @@ Cosas afines a GO
 - [TableDrivenTests](https://github.com/golang/go/wiki/TableDrivenTests)
 - [Prefer table driven tests](https://dave.cheney.net/2019/05/07/prefer-table-driven-tests)
 
-## [Reflection](reflection.md)
+## [Reflection](reflection.md)
+
+## Configuration
+
+### [Dep](dep.md)
