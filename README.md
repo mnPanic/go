@@ -1,9 +1,25 @@
 # go
-Cosas afines a GO
+
+## Project structure
+
+[Standard Go Project Layout]
+
+## Writing code
+
+- [Uber Style Guide] for a general-purpose style guide
+- [CodeReviewComments] for common mistakes
+- [Go Proverbs]
+- [Effective Go]
 
 ## Tests
 
-### Tests with coverage
+### Running all tests in a directory
+
+```bash
+go test ./...
+```
+
+### With coverage
 
 ```bash
 go test ./... -coverprofile=cp.out
@@ -11,11 +27,13 @@ go tool -html=cp.out
 rm cp.out
 ```
 
-Or, putting this in your `~/.bash_profile`
+Or, with a simple `~/.bash_profile` alias
 
 ```bash
 alias gocov="go test ./... --coverprofile=cp.out;go tool cover -html=cp.out;rm cp.out"
 ```
+
+### Writing tests
 
 - [Principles of unit testing](https://github.com/ghsukumar/SFDC_Best_Practices/wiki/F.I.R.S.T-Principles-of-Unit-Testing)
 - [TableDrivenTests](https://github.com/golang/go/wiki/TableDrivenTests)
@@ -35,12 +53,17 @@ export PATH=$PATH:$(go env GOPATH)/bin
 
 ### [Dep](dep.md)
 
-## Links
+## General
 
 - [Pass by reference or value?](http://goinbigdata.com/golang-pass-by-pointer-vs-pass-by-value/)
 - [Developer Roadmap](https://github.com/Alikhll/golang-developer-roadmap)
 - [How to write go code](https://golang.org/doc/code.html)
-- [Effective go](https://golang.org/doc/effective_go.html): Tips on writing clear, idiomatic Go code.
 - [A Tour of Go](https://tour.golang.org/welcome/1): Learn language proper
 - [Documentation page](https://golang.org/doc/#articles)
 - [Functional options](https://dave.cheney.net/2014/10/17/functional-options-for-friendly-apis)
+
+[Standard Go Project Layout]: https://github.com/golang-standards/project-layout
+[Uber Style Guide]: https://github.com/uber-go/guide
+[Effective Go]: https://golang.org/doc/effective_go.html
+[CodeReviewComments]: https://github.com/golang/go/wiki/CodeReviewComments
+[Go Proverbs]: https://go-proverbs.github.io/
