@@ -4,6 +4,11 @@
 
 [Standard Go Project Layout]
 
+## Design
+
+- [Understanding Go Interfaces - Google](https://www.youtube.com/watch?v=F4wUrj6pmSI&t=1642s)
+- [Package oriented design - Ardan Labs](https://www.ardanlabs.com/blog/2017/02/package-oriented-design.html)
+
 ## Writing code
 
 - [Uber Style Guide] for a general-purpose style guide
