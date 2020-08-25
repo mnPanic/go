@@ -15,6 +15,7 @@
 - [CodeReviewComments] for common mistakes
 - [Go Proverbs]
 - [Effective Go]
+- [Practical Go](https://dave.cheney.net/practical-go/presentations/qcon-china.html)
 
 ## Tests
 
