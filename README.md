@@ -17,6 +17,15 @@
 - [Effective Go]
 - [Practical Go](https://dave.cheney.net/practical-go/presentations/qcon-china.html)
 
+- Don't panic.
+  - https://github.com/uber-go/guide/blob/master/style.md#dont-panic
+  - https://github.com/golang/go/wiki/CodeReviewComments#dont-panic
+  - https://golang.org/doc/effective_go#errors
+  - https://eli.thegreenplace.net/2018/on-the-uses-and-misuses-of-panics-in-go/#id4
+  - En general, don't panic. Solo en inicialización
+  - Si querés paniquear, dejalo en el package's boundaries, nunca exponerlo hacia
+    afuera.
+
 ## Tests
 
 ### Running all tests in a directory
@@ -51,7 +60,7 @@ alias gocov="go test ./... --coverprofile=cp.out;go tool cover -html=cp.out;rm c
 
 ### Add executables to `PATH`
 
-To do so, add the directory `$GOPATH/bin` to path PATH
+Add the directory `$GOPATH/bin` to PATH
 
 ```bash
 export PATH=$PATH:$(go env GOPATH)/bin
