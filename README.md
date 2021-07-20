@@ -75,7 +75,14 @@ export PATH=$PATH:$(go env GOPATH)/bin
 - [How to write go code](https://golang.org/doc/code.html)
 - [A Tour of Go](https://tour.golang.org/welcome/1): Learn language proper
 - [Documentation page](https://golang.org/doc/#articles)
+
+## Writing packages
+
 - [Functional options](https://dave.cheney.net/2014/10/17/functional-options-for-friendly-apis)
+
+## JSON
+
+- [Marshalling escapes html](https://stackoverflow.com/questions/28595664/how-to-stop-json-marshal-from-escaping-and)
 
 [Standard Go Project Layout]: https://github.com/golang-standards/project-layout
 [Uber Style Guide]: https://github.com/uber-go/guide
